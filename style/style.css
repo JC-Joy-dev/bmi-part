@@ -1,0 +1,470 @@
+/* Inter Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+.bonheur-royale-regular {
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+  font-size: 135px;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Style */
+.display-flex {
+  display: flex;
+}
+.btn-primary {
+  background: rgb(230, 83, 60);
+  border-radius: 42px;
+  padding: 16px 42px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+.shared-title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  /* text-align: left; */
+}
+.shared-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.share-position {
+  /* justify-content: center;
+    align-items: center; */
+  text-align: center;
+}
+.circle-img {
+  box-sizing: border-box;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+/* header style  */
+.bg-color-header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+  background-color: black;
+}
+/* nav sction style */
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+}
+.brand {
+  font-weight: 800;
+  font-size: 2.2rem;
+  color: #e6533c;
+  font-style: italic;
+}
+.nav-links {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+  width: 457px;
+  height: 38px;
+  gap: 47px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+.nav-btn {
+  background-color: #e6533c;
+  border-radius: 46px;
+  padding: 8px 20px 8px 20px;
+  border: none;
+}
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner style */
+.banner {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-title {
+  color: white;
+  font-size: 78px;
+  font-weight: 900;
+  margin: 0px;
+  line-height: 80px;
+}
+.top-line {
+  margin: 0;
+}
+.banner-description {
+  color: white;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.download-btn {
+  background: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  padding: 16px 42px 16px 42px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  margin-left: 14px;
+}
+
+/* banner card style */
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 193px;
+  height: 98px;
+  left: 1250px;
+  top: 250px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+.card-top-title {
+  color: white;
+  font-size: 3.1rem;
+  font-weight: 900;
+  margin: 0;
+}
+.card-top-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+.card2 {
+  position: absolute;
+  display: flex;
+  gap: 12px;
+  width: 206px;
+  height: 96px;
+  left: 900px;
+  top: 556px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border: none;
+  border-radius: 100px;
+}
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.card-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+/* main section style */
+.main-section {
+  margin-top: 100px;
+}
+.main-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+.main-description {
+  margin-bottom: 54px;
+}
+.img-section {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* advertise-card-style */
+.advertise {
+  margin-top: 100px;
+}
+.advertise-container {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.advertise-flex {
+  display: flex;
+  gap: 279px;
+  padding: 30px;
+}
+.advertise-card {
+  text-align: left;
+}
+.advertise-title {
+  text-align: left;
+}
+.advertise-btn {
+  margin-top: 34px;
+}
+.advertise-img {
+  width: 400px;
+  height: 312px;
+  border-radius: 18px;
+}
+.advertise-description {
+  text-align: left;
+}
+
+/* form and list item container */
+.bmi-form {
+  display: flex;
+  gap: 100px;
+}
+.table-title {
+  background: white;
+  width: 45%;
+}
+.title-heading {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td,
+th {
+  border: 1px solid rgb(75, 74, 74);
+  padding: 11px 70px 14px 18px;
+  text-align: left;
+}
+
+/* form-section-style */
+.form-section {
+  width: 55%;
+}
+.get .row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.row .left {
+  width: 50%;
+}
+.right{
+    position: relative;
+}
+.right .svg-icon-1{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+.right .svg-icon-1 .icon-1{
+    width: 20px;
+    color: #fff;
+}
+.row .left input,
+.right select,
+.full select {
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  background-color: rgb(145, 145, 145);
+  box-sizing: border-box;
+  border-radius: 8px;
+  appearance: none;
+}
+.row .left input::placeholder,
+.right select,
+.full select {
+  color: white;
+  font-size: 16px;
+}
+.right select:focus-visible,
+.full select,
+.left input {
+  outline: none;
+}
+.form-button {
+  width: 40%;
+  margin-top: 25px;
+}
+.form-btn {
+  width: 100%;
+}
+.full {
+  position: relative;
+}
+.svg-icon {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  z-index: 111111;
+}
+.full .svg-icon .icon-6 {
+  width: 20px;
+  color: #fff;
+}
+/* .form-section{
+    max-width: 550px;
+    background: red;
+ }
+ .form{
+    
+ }
+ .first-row{
+    display: flex;
+    max-width: 550px;
+  
+ }
+ .input-1, .input-2{
+    width: 50%;
+ }
+.input-1 input, .input-2 input
+{
+    width: 100%;
+}
+.select .inpu-box {
+    width: 100%;
+} */
+
+/* team section style */
+#team-part {
+  margin: 80px 0;
+}
+.part-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.team-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background: rgba(87, 87, 87, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+}
+.team-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+.team-img {
+  height: 326px;
+}
+.team-title-description {
+  margin-bottom: 50px;
+}
+
+/* footer section style */
+.margin-top {
+  padding: 66px 0 35px 0;
+  background: rgb(66, 66, 66);
+}
+.sub-container {
+  display: flex;
+
+  /* gap: 359px; */
+
+  /* 
+    justify-content:center;
+    align-items: center; */
+}
+.footer-title-descriptin,
+.list-section {
+  text-align: left;
+  width: 50%;
+}
+.footer-brand {
+  font-size: 70px;
+  color: rgb(230, 83, 60);
+  text-align: left;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0;
+}
+.footer-description {
+  text-align: left;
+}
+
+.list-section {
+  display: flex;
+  gap: 198px;
+}
+.list-left {
+  width: 50%;
+}
+.list-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  /* margin-bottom: 20px; */
+  margin: 0 0 20px 0;
+}
+.ul-item {
+  padding: 0;
+  list-style: none;
+}
+.li-item {
+  margin-bottom: 15px;
+}
+.li-item a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.margin-none {
+  margin-bottom: 0;
+}
+.line {
+  border-top: 1px solid rgb(44, 43, 43);
+  margin: 30px 0 0;
+}
+.all-right {
+  text-align: center;
+}
